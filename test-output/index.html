@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Web_application_Automation">
+              <span class="suite-name border-passed">Web application Automation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Web_application_Automation">
+                    <span>C:\Users\user\eclipse-workspace\SeleniumProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Web_application_Automation">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Web_application_Automation">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Web_application_Automation">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Web_application_Automation">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Web_application_Automation">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Web_application_Automation">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Web_application_Automation" class="hide-methods passed suite-Web_application_Automation"> (hide)</a> <!-- hide-methods passed suite-Web_application_Automation -->
+                      <a href="#" panel-name="suite-Web_application_Automation" class="show-methods passed suite-Web_application_Automation"> (show)</a> <!-- show-methods passed suite-Web_application_Automation -->
+                    </span>
+                    <div class="method-list-content passed suite-Web_application_Automation">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_application_Automation" title="com.myshopify.ecom_optimus.tests.SearchAndAddToCart" hash-for-method="addProductFromFeaturedCollection">addProductFromFeaturedCollection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_application_Automation" title="com.myshopify.ecom_optimus.tests.SearchAndAddToCart" hash-for-method="addProductsWithMultipleSizes">addProductsWithMultipleSizes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_application_Automation" title="com.myshopify.ecom_optimus.tests.SearchAndAddToCart" hash-for-method="increaseProductQuantityAndValidatePrice">increaseProductQuantityAndValidatePrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Web_application_Automation" title="com.myshopify.ecom_optimus.tests.SearchAndAddToCart" hash-for-method="searchProductAndAddToCart">searchProductAndAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Web_application_Automation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Web_application_Automation" class="panel Web_application_Automation">
+          <div class="suite-Web_application_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.myshopify.ecom_optimus.tests.SearchAndAddToCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductFromFeaturedCollection">
+                  </a> <!-- addProductFromFeaturedCollection -->
+                  <span class="method-name">addProductFromFeaturedCollection</span>
+                  <em>
+(Add product From featured collection and validate if product is successfully added to the cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductsWithMultipleSizes">
+                  </a> <!-- addProductsWithMultipleSizes -->
+                  <span class="method-name">addProductsWithMultipleSizes</span>
+                  <em>
+(Add Product with multiple sizes and validate if different size products are successfully added to the cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="increaseProductQuantityAndValidatePrice">
+                  </a> <!-- increaseProductQuantityAndValidatePrice -->
+                  <span class="method-name">increaseProductQuantityAndValidatePrice</span>
+                  <em>
+(Increase the product quantity and validate the price)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProductAndAddToCart">
+                  </a> <!-- searchProductAndAddToCart -->
+                  <span class="method-name">searchProductAndAddToCart</span>
+                  <em>
+(Search for item,add to cart and validate if product is successfully added to the cart)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Web_application_Automation-class-passed -->
+        </div> <!-- panel Web_application_Automation -->
+        <div panel-name="test-xml-Web_application_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\user\eclipse-workspace\SeleniumProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Web application Automation&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Ecom Optimus Chrome Tests&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserOrDevice&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.myshopify.ecom_optimus.tests.SearchAndAddToCart&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;searchProductAndAddToCart&quot;/&gt;
+          &lt;include name=&quot;increaseProductQuantityAndValidatePrice&quot;/&gt;
+          &lt;include name=&quot;addProductFromFeaturedCollection&quot;/&gt;
+          &lt;include name=&quot;addProductsWithMultipleSizes&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.myshopify.ecom_optimus.tests.SearchAndAddToCart --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Ecom Optimus Chrome Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Ecom Optimus Firefox Tests&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;browserOrDevice&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.myshopify.ecom_optimus.tests.SearchAndAddToCart&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;searchProductAndAddToCart&quot;/&gt;
+          &lt;exclude name=&quot;increaseProductQuantityAndValidatePrice&quot;/&gt;
+          &lt;exclude name=&quot;addProductFromFeaturedCollection&quot;/&gt;
+          &lt;exclude name=&quot;addProductsWithMultipleSizes&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.myshopify.ecom_optimus.tests.SearchAndAddToCart --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Ecom Optimus Firefox Tests --&gt;
+&lt;/suite&gt; &lt;!-- Web application Automation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Web_application_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Web application Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Ecom Optimus Chrome Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Ecom Optimus Firefox Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Web_application_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Web application Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Web_application_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Web application Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Web_application_Automation');
+function tableData_Web_application_Automation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addProductsWithMultipleSizes')
+data.setCell(0, 2, 'com.myshopify.ecom_optimus.tests.SearchAndAddToCart')
+data.setCell(0, 3, 40219);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchProductAndAddToCart')
+data.setCell(1, 2, 'com.myshopify.ecom_optimus.tests.SearchAndAddToCart')
+data.setCell(1, 3, 37414);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'increaseProductQuantityAndValidatePrice')
+data.setCell(2, 2, 'com.myshopify.ecom_optimus.tests.SearchAndAddToCart')
+data.setCell(2, 3, 35109);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addProductFromFeaturedCollection')
+data.setCell(3, 2, 'com.myshopify.ecom_optimus.tests.SearchAndAddToCart')
+data.setCell(3, 3, 22003);
+window.suiteTableData['Web_application_Automation']= { tableData: data, tableDiv: 'times-div-Web_application_Automation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Web_application_Automation">
+              </div> <!-- times-div-Web_application_Automation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Web_application_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Web application Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Web_application_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.myshopify.ecom_optimus.tests.SearchAndAddToCart</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">addProductsWithMultipleSizes</span>
+                <br/>
+                <span class="ignored-method-name">increaseProductQuantityAndValidatePrice</span>
+                <br/>
+                <span class="ignored-method-name">searchProductAndAddToCart</span>
+                <br/>
+                <span class="ignored-method-name">addProductFromFeaturedCollection</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Web_application_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.myshopify.ecom_optimus.tests.SearchAndAddToCart</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">createExtentReport</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDriver(Chrome)</span>
+                <span class="method-start">674 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchProductAndAddToCart</span>
+                <span class="method-start">18208 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=searchProductAndAddToCart status=SUCCESS method=SearchAndAddToCart.searchProductAnd...)</span>
+                <span class="method-start">55628 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDriver(Chrome)</span>
+                <span class="method-start">56869 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">increaseProductQuantityAndValidatePrice</span>
+                <span class="method-start">65682 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=increaseProductQuantityAndValidatePrice status=SUCCESS method=SearchAndAddToCart.in...)</span>
+                <span class="method-start">100795 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDriver(Chrome)</span>
+                <span class="method-start">108800 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addProductFromFeaturedCollection</span>
+                <span class="method-start">118455 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=addProductFromFeaturedCollection status=SUCCESS method=SearchAndAddToCart.addProduc...)</span>
+                <span class="method-start">140461 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initializeDriver(Chrome)</span>
+                <span class="method-start">141649 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addProductsWithMultipleSizes</span>
+                <span class="method-start">150641 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=addProductsWithMultipleSizes status=SUCCESS method=SearchAndAddToCart.addProductsWi...)</span>
+                <span class="method-start">190863 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">flush</span>
+                <span class="method-start">192066 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

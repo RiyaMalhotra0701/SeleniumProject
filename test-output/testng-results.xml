@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Web application Automation" duration-ms="193615" started-at="2020-05-24T20:26:00Z" finished-at="2020-05-24T20:29:13Z">
+    <groups>
+    </groups>
+    <test name="Ecom Optimus Firefox Tests" duration-ms="45" started-at="2020-05-24T20:26:00Z" finished-at="2020-05-24T20:26:00Z">
+    </test> <!-- Ecom Optimus Firefox Tests -->
+    <test name="Ecom Optimus Chrome Tests" duration-ms="193615" started-at="2020-05-24T20:26:00Z" finished-at="2020-05-24T20:29:13Z">
+      <class name="com.myshopify.ecom_optimus.tests.SearchAndAddToCart">
+        <test-method status="PASS" signature="createExtentReport()[pri:0, instance:com.myshopify.ecom_optimus.tests.SearchAndAddToCart@3b2da18f]" name="createExtentReport" is-config="true" duration-ms="650" started-at="2020-05-24T20:26:00Z" finished-at="2020-05-24T20:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExtentReport -->
+        <test-method status="PASS" signature="initializeDriver(java.lang.String)[pri:0, instance:com.myshopify.ecom_optimus.tests.SearchAndAddToCart@3b2da18f]" name="initializeDriver" is-config="true" duration-ms="17534" started-at="2020-05-24T20:26:00Z" finished-at="2020-05-24T20:26:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="searchProductAndAddToCart()[pri:1, instance:com.myshopify.ecom_optimus.tests.SearchAndAddToCart@3b2da18f]" name="searchProductAndAddToCart" duration-ms="37414" started-at="2020-05-24T20:26:18Z" description="Search for item,add to cart and validate if product is successfully added to the cart" finished-at="2020-05-24T20:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductAndAddToCart -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.myshopify.ecom_optimus.tests.SearchAndAddToCart@3b2da18f]" name="tearDown" is-config="true" duration-ms="1237" started-at="2020-05-24T20:26:55Z" finished-at="2020-05-24T20:26:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProductAndAddToCart status=SUCCESS method=SearchAndAddToCart.searchProductAndAddToCart()[pri:1, instance:com.myshopify.ecom_optimus.tests.SearchAndAddToCart@3b2da18f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initializeDriver(java.lang.String)[pri:0, instance:com.myshopify.ecom_optimus.tests.SearchAndAddToCart@3b2da18f]" name="initializeDriver" is-config="true" duration-ms="8813" started-at="2020-05-24T20:26:57Z" finished-at="2020-05-24T20:27:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="increaseProductQuantityAndValidatePrice()[pri:2, instance:com.myshopify.ecom_optimus.tests.SearchAndAddToCart@3b2da18f]" name="increaseProductQuantityAndValidatePrice" duration-ms="35109" started-at="2020-05-24T20:27:06Z" description="Increase the product quantity and validate the price" finished-at="2020-05-24T20:27:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- increaseProductQuantityAndValidatePrice -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.myshopify.ecom_optimus.tests.SearchAndAddToCart@3b2da18f]" name="tearDown" is-config="true" duration-ms="8004" started-at="2020-05-24T20:27:41Z" finished-at="2020-05-24T20:27:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=increaseProductQuantityAndValidatePrice status=SUCCESS method=SearchAndAddToCart.increaseProductQuantityAndValidatePrice()[pri:2, instance:com.myshopify.ecom_optimus.tests.SearchAndAddToCart@3b2da18f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initializeDriver(java.lang.String)[pri:0, instance:com.myshopify.ecom_optimus.tests.SearchAndAddToCart@3b2da18f]" name="initializeDriver" is-config="true" duration-ms="9654" started-at="2020-05-24T20:27:49Z" finished-at="2020-05-24T20:27:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="addProductFromFeaturedCollection()[pri:3, instance:com.myshopify.ecom_optimus.tests.SearchAndAddToCart@3b2da18f]" name="addProductFromFeaturedCollection" duration-ms="22003" started-at="2020-05-24T20:27:58Z" description="Add product From featured collection and validate if product is successfully added to the cart" finished-at="2020-05-24T20:28:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductFromFeaturedCollection -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.myshopify.ecom_optimus.tests.SearchAndAddToCart@3b2da18f]" name="tearDown" is-config="true" duration-ms="1186" started-at="2020-05-24T20:28:20Z" finished-at="2020-05-24T20:28:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductFromFeaturedCollection status=SUCCESS method=SearchAndAddToCart.addProductFromFeaturedCollection()[pri:3, instance:com.myshopify.ecom_optimus.tests.SearchAndAddToCart@3b2da18f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initializeDriver(java.lang.String)[pri:0, instance:com.myshopify.ecom_optimus.tests.SearchAndAddToCart@3b2da18f]" name="initializeDriver" is-config="true" duration-ms="8991" started-at="2020-05-24T20:28:21Z" finished-at="2020-05-24T20:28:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="addProductsWithMultipleSizes()[pri:4, instance:com.myshopify.ecom_optimus.tests.SearchAndAddToCart@3b2da18f]" name="addProductsWithMultipleSizes" duration-ms="40219" started-at="2020-05-24T20:28:30Z" description="Add Product with multiple sizes and validate if different size products are successfully added to the cart" finished-at="2020-05-24T20:29:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductsWithMultipleSizes -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.myshopify.ecom_optimus.tests.SearchAndAddToCart@3b2da18f]" name="tearDown" is-config="true" duration-ms="1203" started-at="2020-05-24T20:29:11Z" finished-at="2020-05-24T20:29:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addProductsWithMultipleSizes status=SUCCESS method=SearchAndAddToCart.addProductsWithMultipleSizes()[pri:4, instance:com.myshopify.ecom_optimus.tests.SearchAndAddToCart@3b2da18f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="flush()[pri:0, instance:com.myshopify.ecom_optimus.tests.SearchAndAddToCart@3b2da18f]" name="flush" is-config="true" duration-ms="1483" started-at="2020-05-24T20:29:12Z" finished-at="2020-05-24T20:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- com.myshopify.ecom_optimus.tests.SearchAndAddToCart -->
+    </test> <!-- Ecom Optimus Chrome Tests -->
+  </suite> <!-- Web application Automation -->
+</testng-results>

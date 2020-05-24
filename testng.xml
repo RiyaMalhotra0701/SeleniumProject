@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Web application Automation" parallel="tests" thread-count="2">
+    <test name="Ecom Optimus Chrome Tests">
+    <parameter name="browserOrDevice" value="Chrome"/>
+      <classes>
+       <class name="com.myshopify.ecom_optimus.tests.SearchAndAddToCart">
+         <methods>
+           <include name="searchProductAndAddToCart"/>
+           <include name="increaseProductQuantityAndValidatePrice"/>
+           <include name="addProductFromFeaturedCollection"/>
+           <include name="addProductsWithMultipleSizes"/>
+         </methods>
+       </class>
+      </classes>
+    </test> <!-- Test -->
+    
+    <test name="Ecom Optimus Firefox Tests">
+    <parameter name="browserOrDevice" value="Firefox"/>
+      <classes>
+       <class name="com.myshopify.ecom_optimus.tests.SearchAndAddToCart">
+         <methods>
+           <exclude name="searchProductAndAddToCart"/>
+           <exclude name="increaseProductQuantityAndValidatePrice"/>
+           <exclude name="addProductFromFeaturedCollection"/>
+           <exclude name="addProductsWithMultipleSizes"/>
+         </methods>
+       </class>
+      </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

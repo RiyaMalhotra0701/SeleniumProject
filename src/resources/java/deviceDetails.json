@@ -1,0 +1,10 @@
+{
+"RealDevice": {
+		"appiumServerUrl": "http://localhost:4723/wd/hub",
+		"deviceName": "Redmi Note 5 Pro",
+        "udid": "47c1a1e8",
+        "platformName": "Android",
+        "appPackage": "com.android.chrome",
+        "appActivity": "org.chromium.chrome.browser.document.ChromeLauncherActivity"
+	}
+}

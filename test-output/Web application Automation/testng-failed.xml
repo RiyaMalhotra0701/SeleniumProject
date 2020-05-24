@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Web application Automation]" parallel="tests">
+  <test thread-count="2" name="Ecom Optimus Chrome Tests(failed)" parallel="tests">
+    <parameter name="browserOrDevice" value="Chrome"/>
+    <classes>
+      <class name="com.myshopify.ecom_optimus.tests.SearchAndAddToCart">
+        <methods>
+          <include name="tearDown"/>
+          <include name="increaseProductQuantityAndValidatePrice"/>
+          <include name="flush"/>
+          <include name="createExtentReport"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- com.myshopify.ecom_optimus.tests.SearchAndAddToCart -->
+    </classes>
+  </test> <!-- Ecom Optimus Chrome Tests(failed) -->
+</suite> <!-- Failed suite [Web application Automation] -->
