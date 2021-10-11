@@ -25,6 +25,7 @@ public class EcomOptimusHomePage extends WebUiActions {
 	public EcomOptimusHomePage(WebDriver driver,ExtentTest test) {
 		super(driver,test);
 		MyLogger.log.info("EcomOptimusHomePage Objects are created");
+	
 	}
 
 	// Search Icon
